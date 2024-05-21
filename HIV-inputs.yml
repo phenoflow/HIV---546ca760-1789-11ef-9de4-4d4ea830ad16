@@ -1,0 +1,51 @@
+inputModule1:
+  class: File
+  path: js/read-potential-cases-i2b2.js
+inputModule2:
+  class: File
+  path: python/hiv-result---primary.py
+inputModule3:
+  class: File
+  path: python/hiv-acquired---primary.py
+inputModule4:
+  class: File
+  path: python/viral-hiv---primary.py
+inputModule5:
+  class: File
+  path: python/hiv-specified---primary.py
+inputModule6:
+  class: File
+  path: python/hiv-neoplasm---primary.py
+inputModule7:
+  class: File
+  path: python/hiv---primary.py
+inputModule8:
+  class: File
+  path: python/immunologic-hiv---primary.py
+inputModule9:
+  class: File
+  path: python/hiv-immunodef---primary.py
+inputModule10:
+  class: File
+  path: python/hiv-evidence---primary.py
+inputModule11:
+  class: File
+  path: python/hiv-abnormsnec---primary.py
+inputModule12:
+  class: File
+  path: python/hiv-nonhodgkin---primary.py
+inputModule13:
+  class: File
+  path: python/asymptomatic-hiv---primary.py
+inputModule14:
+  class: File
+  path: python/hiv-condition---primary.py
+inputModule15:
+  class: File
+  path: python/hiv-dementium---primary.py
+inputModule16:
+  class: File
+  path: python/hiv-history---primary.py
+inputModule17:
+  class: File
+  path: python/output-cases.py
