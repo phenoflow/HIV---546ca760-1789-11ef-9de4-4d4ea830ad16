@@ -129,8 +129,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: hiv-abnormsnec---primary/output
-  asymptomatic-hiv---primary:
-    run: asymptomatic-hiv---primary.cwl
+  hiv-condition---primary:
+    run: hiv-condition---primary.cwl
     out:
     - output
     in:
@@ -140,17 +140,6 @@ steps:
       potentialCases:
         id: potentialCases
         source: hiv-nonhodgkin---primary/output
-  hiv-condition---primary:
-    run: hiv-condition---primary.cwl
-    out:
-    - output
-    in:
-      inputModule:
-        id: inputModule
-        source: inputModule14
-      potentialCases:
-        id: potentialCases
-        source: asymptomatic-hiv---primary/output
   hiv-dementium---primary:
     run: hiv-dementium---primary.cwl
     out:
@@ -158,7 +147,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule15
+        source: inputModule14
       potentialCases:
         id: potentialCases
         source: hiv-condition---primary/output
@@ -169,7 +158,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule16
+        source: inputModule15
       potentialCases:
         id: potentialCases
         source: hiv-dementium---primary/output
@@ -180,7 +169,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule17
+        source: inputModule16
       potentialCases:
         id: potentialCases
         source: hiv-history---primary/output
@@ -248,10 +237,6 @@ inputs:
     type: File
   inputModule16:
     id: inputModule16
-    doc: Python implementation unit
-    type: File
-  inputModule17:
-    id: inputModule17
     doc: Python implementation unit
     type: File
 outputs:
