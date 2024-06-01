@@ -2,7 +2,7 @@
 
 import sys, csv, re
 
-codes = [{"code":"A788600","system":"readv2"},{"code":"66j..00","system":"readv2"},{"code":"AyuC.00","system":"readv2"},{"code":"A788.11","system":"readv2"},{"code":"A788300","system":"readv2"},{"code":"66j0.00","system":"readv2"},{"code":"A788000","system":"readv2"},{"code":"A788y00","system":"readv2"},{"code":"A788500","system":"readv2"},{"code":"A788z00","system":"readv2"},{"code":"A788400","system":"readv2"}];
+codes = [{"code":"A788600","system":"readv2"},{"code":"66j..00","system":"readv2"},{"code":"AyuC.00","system":"readv2"},{"code":"A788.11","system":"readv2"},{"code":"A788300","system":"readv2"},{"code":"66j0.00","system":"readv2"},{"code":"A788000","system":"readv2"},{"code":"A788y00","system":"readv2"},{"code":"A788500","system":"readv2"},{"code":"ZV01A00","system":"readv2"},{"code":"A788100","system":"readv2"},{"code":"A788z00","system":"readv2"},{"code":"A788400","system":"readv2"},{"code":"Z21","system":"readv2"}];
 REQUIRED_CODES = 1;
 with open(sys.argv[1], 'r') as file_in, open('hiv-potential-cases.csv', 'w', newline='') as file_out:
     csv_reader = csv.DictReader(file_in)

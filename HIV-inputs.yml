@@ -39,16 +39,13 @@ inputModule12:
   path: python/hiv-nonhodgkin---primary.py
 inputModule13:
   class: File
-  path: python/asymptomatic-hiv---primary.py
+  path: python/hiv-condition---primary.py
 inputModule14:
   class: File
-  path: python/hiv-condition---primary.py
+  path: python/hiv-dementium---primary.py
 inputModule15:
   class: File
-  path: python/hiv-dementium---primary.py
-inputModule16:
-  class: File
   path: python/hiv-history---primary.py
-inputModule17:
+inputModule16:
   class: File
   path: python/output-cases.py
